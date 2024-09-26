@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <a href="#"> &lt; Quay lại Trang chủ</a>
+            <h2>Đăng nhập</h2>
+            <form id="loginForm">
+                <div class="input-field">
+                    <label for="email">Email đăng nhập</label>
+                    <input type="email" id="email" placeholder="Vui lòng nhập email">
+                </div>
+                <div class="input-field">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" placeholder="Vui lòng nhập mật khẩu">
+                    <span id="togglePassword" class="toggle-password">👁️</span>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Quên mật khẩu</a>
+                </div>
+                <button type="submit" class="login-btn">Đăng nhập</button>
+            </form>
+            <p>Bạn chưa có tài khoản <a href="#">Đăng ký</a></p>
+        </div>
+        <div class="banner">
+            <img src="CMC.png" alt="Silver Partner" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
